@@ -1,0 +1,11 @@
+tests:
+  bluetooth.host.keys.rl_race:
+    build_only: true
+    tags:
+      - bluetooth
+      - bluetooth_host
+    platform_allow:
+      - nrf52_bsim/native
+    harness: bsim
+    harness_config:
+      bsim_exe_name: tests_bsim_bluetooth_host_keys_rl_race_prj_conf
